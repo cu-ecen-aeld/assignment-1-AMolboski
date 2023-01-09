@@ -1,1 +1,3 @@
-runs-on: self-hosted
+jobs:
+  build:
+    runs-on: self-hosted
