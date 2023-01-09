@@ -9,11 +9,11 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 set_property(TARGET unity APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(unity PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "C"
-  IMPORTED_LOCATION_NOCONFIG "/home/drew/Documents/linux-system-programming-1/assignment-autotest/Unity/src/libunity.a"
+  IMPORTED_LOCATION_NOCONFIG "/home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/assignment-autotest/Unity/src/libunity.a"
   )
 
 list(APPEND _IMPORT_CHECK_TARGETS unity )
-list(APPEND _IMPORT_CHECK_FILES_FOR_unity "/home/drew/Documents/linux-system-programming-1/assignment-autotest/Unity/src/libunity.a" )
+list(APPEND _IMPORT_CHECK_FILES_FOR_unity "/home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/assignment-autotest/Unity/src/libunity.a" )
 
 # Commands beyond this point should not need to know the version.
 set(CMAKE_IMPORT_FILE_VERSION)

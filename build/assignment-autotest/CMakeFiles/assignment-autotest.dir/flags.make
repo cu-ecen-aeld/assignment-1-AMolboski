@@ -6,5 +6,5 @@ C_FLAGS =  -Wall -Werror -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/drew/Documents/linux-system-programming-1/assignment-autotest/Unity/src -I/home/drew/Documents/linux-system-programming-1/assignment-autotest/. -I/home/drew/Documents/linux-system-programming-1/assignment-autotest/.. 
+C_INCLUDES = -I/home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/assignment-autotest/Unity/src -I/home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/assignment-autotest/. -I/home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/assignment-autotest/.. 
 

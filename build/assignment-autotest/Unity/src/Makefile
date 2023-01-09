@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/drew/Documents/linux-system-programming-1
+CMAKE_SOURCE_DIR = /home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/drew/Documents/linux-system-programming-1/build
+CMAKE_BINARY_DIR = /home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/drew/Documents/linux-system-programming-1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/drew/Documents/linux-system-programming-1/build/CMakeFiles /home/drew/Documents/linux-system-programming-1/build/assignment-autotest/Unity/src/CMakeFiles/progress.marks
-	cd /home/drew/Documents/linux-system-programming-1/build && $(MAKE) -f CMakeFiles/Makefile2 assignment-autotest/Unity/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/drew/Documents/linux-system-programming-1/build/CMakeFiles 0
+	cd /home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/build/CMakeFiles /home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/build/assignment-autotest/Unity/src/CMakeFiles/progress.marks
+	cd /home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/build && $(MAKE) -f CMakeFiles/Makefile2 assignment-autotest/Unity/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/drew/Documents/linux-system-programming-1/build && $(MAKE) -f CMakeFiles/Makefile2 assignment-autotest/Unity/src/clean
+	cd /home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/build && $(MAKE) -f CMakeFiles/Makefile2 assignment-autotest/Unity/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/drew/Documents/linux-system-programming-1/build && $(MAKE) -f CMakeFiles/Makefile2 assignment-autotest/Unity/src/preinstall
+	cd /home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/build && $(MAKE) -f CMakeFiles/Makefile2 assignment-autotest/Unity/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/drew/Documents/linux-system-programming-1/build && $(MAKE) -f CMakeFiles/Makefile2 assignment-autotest/Unity/src/preinstall
+	cd /home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/build && $(MAKE) -f CMakeFiles/Makefile2 assignment-autotest/Unity/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/drew/Documents/linux-system-programming-1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 assignment-autotest/Unity/src/CMakeFiles/unity.dir/rule:
-	cd /home/drew/Documents/linux-system-programming-1/build && $(MAKE) -f CMakeFiles/Makefile2 assignment-autotest/Unity/src/CMakeFiles/unity.dir/rule
+	cd /home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/build && $(MAKE) -f CMakeFiles/Makefile2 assignment-autotest/Unity/src/CMakeFiles/unity.dir/rule
 .PHONY : assignment-autotest/Unity/src/CMakeFiles/unity.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ unity: assignment-autotest/Unity/src/CMakeFiles/unity.dir/rule
 
 # fast build rule for target.
 unity/fast:
-	cd /home/drew/Documents/linux-system-programming-1/build && $(MAKE) -f assignment-autotest/Unity/src/CMakeFiles/unity.dir/build.make assignment-autotest/Unity/src/CMakeFiles/unity.dir/build
+	cd /home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/build && $(MAKE) -f assignment-autotest/Unity/src/CMakeFiles/unity.dir/build.make assignment-autotest/Unity/src/CMakeFiles/unity.dir/build
 .PHONY : unity/fast
 
 unity.o: unity.c.o
@@ -177,7 +177,7 @@ unity.o: unity.c.o
 
 # target to build an object file
 unity.c.o:
-	cd /home/drew/Documents/linux-system-programming-1/build && $(MAKE) -f assignment-autotest/Unity/src/CMakeFiles/unity.dir/build.make assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+	cd /home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/build && $(MAKE) -f assignment-autotest/Unity/src/CMakeFiles/unity.dir/build.make assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
 .PHONY : unity.c.o
 
 unity.i: unity.c.i
@@ -186,7 +186,7 @@ unity.i: unity.c.i
 
 # target to preprocess a source file
 unity.c.i:
-	cd /home/drew/Documents/linux-system-programming-1/build && $(MAKE) -f assignment-autotest/Unity/src/CMakeFiles/unity.dir/build.make assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.i
+	cd /home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/build && $(MAKE) -f assignment-autotest/Unity/src/CMakeFiles/unity.dir/build.make assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.i
 .PHONY : unity.c.i
 
 unity.s: unity.c.s
@@ -195,7 +195,7 @@ unity.s: unity.c.s
 
 # target to generate assembly for a file
 unity.c.s:
-	cd /home/drew/Documents/linux-system-programming-1/build && $(MAKE) -f assignment-autotest/Unity/src/CMakeFiles/unity.dir/build.make assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.s
+	cd /home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/build && $(MAKE) -f assignment-autotest/Unity/src/CMakeFiles/unity.dir/build.make assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.s
 .PHONY : unity.c.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/drew/Documents/linux-system-programming-1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

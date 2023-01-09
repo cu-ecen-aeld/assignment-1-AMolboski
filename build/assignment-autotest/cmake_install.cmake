@@ -1,4 +1,4 @@
-# Install script for directory: /home/drew/Documents/linux-system-programming-1/assignment-autotest
+# Install script for directory: /home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/assignment-autotest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/drew/Documents/linux-system-programming-1/build/assignment-autotest/Unity/cmake_install.cmake")
+  include("/home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/build/assignment-autotest/Unity/cmake_install.cmake")
 
 endif()
 

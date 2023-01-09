@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/drew/Documents/linux-system-programming-1/assignment-autotest/Unity/src 
+C_INCLUDES = -I/home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/assignment-autotest/Unity/src 
 
