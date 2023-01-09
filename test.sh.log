@@ -56,3 +56,172 @@ Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
 The number of files are 10 and the number of matching lines are 10
 success
 Test of assignment assignment1 complete with success
+Running test with user amolboski
+./unit-test.sh: line 9: cmake: command not found
+/bin/sh: 1: cd: can't cd to /home/drew/Documents/linux-system-programming-1/build/assignment-autotest
+make[2]: *** [assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make:213: assignment-autotest/CMakeFiles/assignment-autotest.dir/clean] Error 2
+make[1]: *** [CMakeFiles/Makefile2:150: assignment-autotest/CMakeFiles/assignment-autotest.dir/clean] Error 2
+make: *** [Makefile:136: clean] Error 2
+make: /usr/bin/cmake: Command not found
+make: *** [Makefile:210: cmake_check_build_system] Error 127
+/home/drew/Documents/linux-system-programming-1/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/drew/Documents/linux-system-programming-1/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/drew/Documents/linux-system-programming-1/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read AMolboski from conf/username.txt
+/home/drew/Documents/linux-system-programming-1/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/assignment-autotest/test/assignment1 ~/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski
+~/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/finder-app ~/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/assignment-autotest/test/assignment1 ~/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski
+Invalid number of arguments; please enter 2 arguments: 
+ - Argument 1 must be a file path (the location and file to be screated)
+ - Argument 2 must be a string (the text to be written in the file)
+Invalid number of arguments; please enter 2 arguments: 
+ - Argument 1 must be a file path (the location and file to be screated)
+ - Argument 2 must be a string (the text to be written in the file)
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
+Running test with user amolboski
+CMake Error: The current CMakeCache.txt directory /home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/build/CMakeCache.txt is different than the directory /home/drew/Documents/linux-system-programming-1/build where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source "/home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/CMakeLists.txt" does not match the source "/home/drew/Documents/linux-system-programming-1/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
+/bin/sh: 1: cd: can't cd to /home/drew/Documents/linux-system-programming-1/build/assignment-autotest
+make[2]: *** [assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make:213: assignment-autotest/CMakeFiles/assignment-autotest.dir/clean] Error 2
+make[1]: *** [CMakeFiles/Makefile2:150: assignment-autotest/CMakeFiles/assignment-autotest.dir/clean] Error 2
+make: *** [Makefile:136: clean] Error 2
+/bin/sh: 1: cd: can't cd to /home/drew/Documents/linux-system-programming-1/build
+make[2]: *** [assignment-autotest/Unity/src/CMakeFiles/unity.dir/build.make:97: assignment-autotest/Unity/src/CMakeFiles/unity.dir/depend] Error 2
+make[1]: *** [CMakeFiles/Makefile2:158: assignment-autotest/Unity/src/CMakeFiles/unity.dir/all] Error 2
+make: *** [Makefile:130: all] Error 2
+/home/drew/Documents/linux-system-programming-1/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/drew/Documents/linux-system-programming-1/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/drew/Documents/linux-system-programming-1/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read AMolboski from conf/username.txt
+/home/drew/Documents/linux-system-programming-1/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/assignment-autotest/test/assignment1 ~/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski
+~/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/finder-app ~/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/assignment-autotest/test/assignment1 ~/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski
+Invalid number of arguments; please enter 2 arguments: 
+ - Argument 1 must be a file path (the location and file to be screated)
+ - Argument 2 must be a string (the text to be written in the file)
+Invalid number of arguments; please enter 2 arguments: 
+ - Argument 1 must be a file path (the location and file to be screated)
+ - Argument 2 must be a string (the text to be written in the file)
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
+Running test with user amolboski
+CMake Error: The current CMakeCache.txt directory /home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/build/CMakeCache.txt is different than the directory /home/drew/Documents/linux-system-programming-1/build where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source "/home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/CMakeLists.txt" does not match the source "/home/drew/Documents/linux-system-programming-1/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
+/bin/sh: 1: cd: can't cd to /home/drew/Documents/linux-system-programming-1/build/assignment-autotest
+make[2]: *** [assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make:213: assignment-autotest/CMakeFiles/assignment-autotest.dir/clean] Error 2
+make[1]: *** [CMakeFiles/Makefile2:150: assignment-autotest/CMakeFiles/assignment-autotest.dir/clean] Error 2
+make: *** [Makefile:136: clean] Error 2
+/bin/sh: 1: cd: can't cd to /home/drew/Documents/linux-system-programming-1/build
+make[2]: *** [assignment-autotest/Unity/src/CMakeFiles/unity.dir/build.make:97: assignment-autotest/Unity/src/CMakeFiles/unity.dir/depend] Error 2
+make[1]: *** [CMakeFiles/Makefile2:158: assignment-autotest/Unity/src/CMakeFiles/unity.dir/all] Error 2
+make: *** [Makefile:130: all] Error 2
+/home/drew/Documents/linux-system-programming-1/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/drew/Documents/linux-system-programming-1/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/drew/Documents/linux-system-programming-1/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read AMolboski from conf/username.txt
+/home/drew/Documents/linux-system-programming-1/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/assignment-autotest/test/assignment1 ~/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski
+~/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/finder-app ~/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/assignment-autotest/test/assignment1 ~/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski
+Invalid number of arguments; please enter 2 arguments: 
+ - Argument 1 must be a file path (the location and file to be screated)
+ - Argument 2 must be a string (the text to be written in the file)
+Invalid number of arguments; please enter 2 arguments: 
+ - Argument 1 must be a file path (the location and file to be screated)
+ - Argument 2 must be a string (the text to be written in the file)
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
+Running test with user amolboski
+CMake Error: The current CMakeCache.txt directory /home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/build/CMakeCache.txt is different than the directory /home/drew/Documents/linux-system-programming-1/build where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source "/home/amolboski/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/CMakeLists.txt" does not match the source "/home/drew/Documents/linux-system-programming-1/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
+/bin/sh: 1: cd: can't cd to /home/drew/Documents/linux-system-programming-1/build/assignment-autotest
+make[2]: *** [assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make:213: assignment-autotest/CMakeFiles/assignment-autotest.dir/clean] Error 2
+make[1]: *** [CMakeFiles/Makefile2:150: assignment-autotest/CMakeFiles/assignment-autotest.dir/clean] Error 2
+make: *** [Makefile:136: clean] Error 2
+/bin/sh: 1: cd: can't cd to /home/drew/Documents/linux-system-programming-1/build
+make[2]: *** [assignment-autotest/Unity/src/CMakeFiles/unity.dir/build.make:97: assignment-autotest/Unity/src/CMakeFiles/unity.dir/depend] Error 2
+make[1]: *** [CMakeFiles/Makefile2:158: assignment-autotest/Unity/src/CMakeFiles/unity.dir/all] Error 2
+make: *** [Makefile:130: all] Error 2
+/home/drew/Documents/linux-system-programming-1/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/drew/Documents/linux-system-programming-1/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/drew/Documents/linux-system-programming-1/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read AMolboski from conf/username.txt
+/home/drew/Documents/linux-system-programming-1/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/assignment-autotest/test/assignment1 ~/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski
+~/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/finder-app ~/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski/assignment-autotest/test/assignment1 ~/Documents/Linux-System-Programming/Course-1/assignment-1-AMolboski
+Invalid number of arguments; please enter 2 arguments: 
+ - Argument 1 must be a file path (the location and file to be screated)
+ - Argument 2 must be a string (the text to be written in the file)
+Invalid number of arguments; please enter 2 arguments: 
+ - Argument 1 must be a file path (the location and file to be screated)
+ - Argument 2 must be a string (the text to be written in the file)
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success

@@ -13,7 +13,7 @@ static inline char *malloc_username_from_conf_file()
     char *buffer = malloc(len + 1);
     buffer[0] = '\0';
 
-    FILE *fp = fopen("conf/username.txt","r");
+    FILE *fp = fopen("/conf/username.txt","r");
     if ( fp != NULL ) {
         /**
          * See https://man7.org/linux/man-pages/man3/getline.3.html
