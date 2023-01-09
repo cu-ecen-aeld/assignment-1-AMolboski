@@ -20,3 +20,8 @@ bool this_function_returns_false()
 {
     return false;
 }
+
+const char *my_username()
+{
+    return "AMolboski";
+}
